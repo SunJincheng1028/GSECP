@@ -1,0 +1,53 @@
+:root {
+  --gsecp-primary: #4f46e5;
+  --gsecp-primary-light: #818cf8;
+  --gsecp-bg: #f5f7fb;
+  --gsecp-text: #1f2937;
+  --gsecp-muted: #6b7280;
+  --gsecp-border: #e5e7eb;
+  font-family: 'Inter', 'PingFang SC', 'Microsoft YaHei', system-ui, -apple-system, sans-serif;
+  color: var(--gsecp-text);
+  background-color: var(--gsecp-bg);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body,
+#app {
+  height: 100%;
+  margin: 0;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #cbd5e1;
+  border-radius: 8px;
+}
+
+.page-container {
+  padding: 24px;
+}
+
+.page-title {
+  margin: 0 0 6px;
+  font-size: 22px;
+  font-weight: 600;
+}
+
+.page-subtitle {
+  margin: 0 0 24px;
+  color: var(--gsecp-muted);
+  font-size: 14px;
+}

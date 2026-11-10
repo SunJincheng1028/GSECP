@@ -1,0 +1,24 @@
+# backend
+backend/target/
+backend/data/
+backend/*.log
+
+# frontend
+frontend/node_modules/
+frontend/dist/
+frontend/.vite/
+frontend/*.local
+frontend/*.log
+
+# IDE / OS
+.idea/
+.vscode/
+*.iml
+.DS_Store
+Thumbs.db
+
+# env / secrets
+.env
+.env.*
+!.env.development
+!.env.production
